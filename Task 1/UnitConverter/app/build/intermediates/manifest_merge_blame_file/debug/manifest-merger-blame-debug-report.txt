@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.kjotaniya.unitconverter"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\jayka\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.kjotaniya.unitconverter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\jayka\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\jayka\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.kjotaniya.unitconverter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\jayka\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\jayka\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:5:5-33:19
+18        android:allowBackup="true"
+18-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\jayka\.gradle\caches\transforms-3\f9479f17cc33438dbb3f95c877649a7c\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:7:9-43
+22        android:label="@string/app_name"
+22-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:8:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:10:9-35
+25        android:theme="@style/Theme.UnitConverter" >
+25-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:11:9-51
+26        <activity
+26-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:12:9-14:40
+27            android:name="com.kjotaniya.unitconverter.fuel"
+27-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:13:13-33
+28            android:exported="false" />
+28-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:14:13-37
+29        <activity
+29-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:15:9-17:40
+30            android:name="com.kjotaniya.unitconverter.scale"
+30-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:16:13-34
+31            android:exported="false" />
+31-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:17:13-37
+32        <activity
+32-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:18:9-20:40
+33            android:name="com.kjotaniya.unitconverter.weight"
+33-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:19:13-35
+34            android:exported="false" />
+34-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:20:13-37
+35        <activity
+35-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:21:9-23:40
+36            android:name="com.kjotaniya.unitconverter.temperature"
+36-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:22:13-40
+37            android:exported="false" />
+37-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:23:13-37
+38        <activity
+38-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:24:9-32:20
+39            android:name="com.kjotaniya.unitconverter.home"
+39-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:25:13-33
+40            android:exported="true" >
+40-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:26:13-36
+41            <intent-filter>
+41-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:27:13-31:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:28:17-69
+42-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:28:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:30:17-77
+44-->E:\kuldeep\Programing\OASIS Internship\UnitConverter\app\src\main\AndroidManifest.xml:30:27-74
+45            </intent-filter>
+46        </activity>
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jayka\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jayka\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+50            android:authorities="com.kjotaniya.unitconverter.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jayka\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jayka\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jayka\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jayka\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\jayka\.gradle\caches\transforms-3\cc51ba35f9749843a7ea676b5bba90b4\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jayka\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jayka\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\jayka\.gradle\caches\transforms-3\30d54f463dd29bfb0e1a99d2b7654f72\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>

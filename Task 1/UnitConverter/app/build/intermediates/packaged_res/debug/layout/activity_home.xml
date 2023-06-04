@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/home_background_color"
+    android:orientation="vertical"
+    tools:context=".home">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:text="@string/unit_converter"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/temperature"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart=" 15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom=" 15dp"
+            android:layout_marginTop=" 10dp"
+            app:cardCornerRadius="15dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom=" 15dp"
+                android:src = "@drawable/temp"/>
+
+            <TextView
+                android:id="@+id/tempOpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop=" 55dp"
+                android:textColor="@color/black"
+                android:text="Temperature"
+                android:textSize="20dp"
+                app:fontFamily="sans-serif-medium"
+                app:textAllCaps="true" />
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/weight"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart=" 15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom=" 15dp"
+            app:cardCornerRadius="15dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom=" 15dp"
+                android:src = "@drawable/scale" />
+
+            <TextView
+                android:id="@+id/wightOpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop=" 55dp"
+                android:textColor="@color/black"
+                android:text="Weight"
+                android:textSize="20dp"
+                app:fontFamily="sans-serif-medium"
+                app:textAllCaps="true" />
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/scale"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart=" 15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom=" 15dp"
+            app:cardCornerRadius="15dp"
+            >
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom=" 15dp"
+                android:src = "@drawable/arrows"/>
+            <TextView
+                android:id="@+id/scaleOpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop=" 55dp"
+                android:textColor="@color/black"
+                android:text="scale"
+                android:textSize="20dp"
+                app:fontFamily="sans-serif-medium"
+                app:textAllCaps="true" />
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/fuel"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart=" 15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom=" 15dp"
+            app:cardCornerRadius="15dp"
+            app:cardMaxElevation="10dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom=" 15dp"
+                android:src="@drawable/fuel"/>
+
+            <TextView
+                android:id="@+id/currencyOpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop=" 55dp"
+                android:textColor="@color/black"
+                android:text="fuel"
+                android:textSize="20dp"
+                app:fontFamily="sans-serif-medium"
+                app:textAllCaps="true" />
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Created By @ k_Jotaniya"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/teal_700" />
+    <!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="10dp"-->
+<!--        android:gravity="center">-->
+
+<!--        <android.support.v7.widget.CardView-->
+<!--            android:id="@+id/op5"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_marginStart=" 15dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:layout_marginBottom=" 15dp"-->
+<!--            app:cardCornerRadius="15dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            app:cardMaxEtevation=" 10dp">-->
+
+<!--        </android.support.v7.widget.CardView>-->
+
+<!--        <android.support.v7.widget.CardView-->
+<!--            android:id="@+id/op6"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_marginStart=" 15dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginEnd="15dp"-->
+<!--            android:layout_marginBottom=" 15dp"-->
+<!--            app:cardCornerRadius="15dp"-->
+<!--            app:cardMaxEtevation=" 10dp">-->
+
+<!--        </android.support.v7.widget.CardView>-->
+
+<!--    </LinearLayout>-->
+
+
+</LinearLayout>
